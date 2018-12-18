@@ -7,7 +7,7 @@ imp_var_list<- function(target.var.name){
   
   names(data)[names(data)==target.var.name] <- "DV"
   #options(java.parameters = "-Xmx1g")
-  options(java.home="C:\\Program Files\\Java\\jre1.8.0_181\\")
+  options(java.home="C:\\Program Files\\Java\\jre1.8.0_191\\")
   data$DV<- as.integer(data$DV)
   options(warn=-1)  
 
